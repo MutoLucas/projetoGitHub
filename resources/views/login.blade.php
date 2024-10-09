@@ -25,7 +25,7 @@
                         <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha">
                     </div>
 
-                    <button type="submite" class="btn btn -primary w-100">Entrar</button>
+                    <button type="submite" class="btn btn-primary w-100">Entrar</button>
                 </form>
                 <div class="text-center mt-3">
                     <a href="">Não tem conta? Cadastre-se</a>
