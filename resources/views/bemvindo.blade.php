@@ -13,7 +13,7 @@
         <div class="text-center">
             <h1 class="display-4">Bem-vindo(a)!</h1>
             <p class="lead">Você está cadastro no nosso sistema, obrigado pela escolhe. Aproveite nosso sistema!!</p>
-            <a href="" class="btn btn-outline-danger btn-lg mt-3">Logout</a>
+            <a href="{{ route('logout') }}" class="btn btn-outline-danger btn-lg mt-3">Logout</a>
         </div>
     </div>
 
