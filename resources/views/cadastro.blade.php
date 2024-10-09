@@ -13,7 +13,7 @@
         <div class="card shadow-lg" style="width: 25rem">
             <div class="card-body">
                 <h3 class="card-title text-center">Login</h3>
-                <form action="" method="POST">
+                <form action="{{ route('login.auth') }}" method="POST">
                     @csrf
                     <div class="mb-3">
                         <label for="nome" class="form-label">Nome</label>
