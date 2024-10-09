@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class Login extends Controller
 {
-    public function storeUser(Reuqest $request){
+    public function storeUser(Request $request){
         User::create([
             'name' => $request->nome,
             'email' => $request->email,

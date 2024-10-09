@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Htpp\Controllers\Login;
+use App\Http\Controllers\Login;
 
 Route::get('/', function () {return view('login');})->name('login.home');
 Route::get('/cadastro', function () {return view('cadastro');})->name('cadastro');
