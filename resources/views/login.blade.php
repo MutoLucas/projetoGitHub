@@ -28,7 +28,7 @@
                     <button type="submite" class="btn btn-primary w-100">Entrar</button>
                 </form>
                 <div class="text-center mt-3">
-                    <a href="">Não tem conta? Cadastre-se</a>
+                    <a href="{{ route('cadastro') }}">Não tem conta? Cadastre-se</a>
                 </div>
             </div>
         </div>
