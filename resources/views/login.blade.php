@@ -13,6 +13,13 @@
         <div class="card shadow-lg" style="width: 25rem">
             <div class="card-body">
                 <h3 class="card-title text-center">Login</h3>
+
+                @if(Session::get('error'))
+                <p class="alert alert-danger text-center">
+                    {{ Session::get('error') }}
+                </p>
+                @endif
+
                 <form action="{{ route('logar') }}" method="POST">
                     @csrf
                     <div class="mb-3">
